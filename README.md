@@ -1,2 +1,2 @@
 # Team18_CMS_frontend
-This the repo to all our cms project (Forge) front end code
+This repo contains the frontend code for Forge(my_cms project)
