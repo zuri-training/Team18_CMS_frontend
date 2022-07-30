@@ -88,7 +88,39 @@ Now we have our contributions pushed to our forked repository. Weldone 👍
 
 ### Creating a Pull Request (PR)
 The hard part is over now, just a few more steps and we would be done with this.</br>
+After successfully pushing your contribution, go to Github and open your forked <br/>
+repository and you should your changes should reflect 👇 (this is just a sample)
+
+
+![scr13](https://user-images.githubusercontent.com/70463535/182002049-decbee4a-f1f7-4033-891e-d648e2958be9.png)
+
 Next, we need to <strong>create a pull request</strong>, that is linked to the issue/task we were assigned.<br/>
 <span style="color: red">NOTE: If you were not assigned any task/issue directly from the Github Projects,</br>
 Please contact the team lead or administrative personnel to assign you one before creating your PR.</br>
 This is very important.</span><br/>
+To create a PR and link your task/issue, follow the steps:
+* Select Contribute and click on 'Open Pull Request'
+
+    ![scr14](https://user-images.githubusercontent.com/70463535/182002200-b7c7a37b-15ca-41c0-b78e-9d23027ecf78.png)
+
+* Make sure the following are correct:
+    * a => the main repository you cloned from (zuri-training/team18_cms_frontend)
+    * b => the 'main' branch of the main repository you cloned from 
+    * c => your own forked repository
+    * d => the 'main' branch of your owned forked repository
+
+        ![scr15](https://user-images.githubusercontent.com/70463535/182002203-fa1f18b3-042b-4cbe-9e95-2251bfecbbe0.png)
+
+* In the comment box, do the following:
+    1. Type in 'Resolves #' and this should display a drop-down of the availbale issues.
+    2. From this drop-down, select the issue/task assigned to you
+
+        ![scr16](https://user-images.githubusercontent.com/70463535/182002374-dd386efe-4cbd-4be3-b8be-87adb5339a32.png)
+
+    3. Then click 'Create pull request'
+
+And there you have it. You have successfully added your contribution 🥳🎉.<br/>
+Kindly notify the team lead or any other administrative member to review </br>
+and merge your Pull Request.</br>
+### Trust me, you deserve a hug 🤗, its not easy to be a developer. Keep on being amazing.
+
