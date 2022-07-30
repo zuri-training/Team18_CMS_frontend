@@ -1,2 +1,2 @@
-# Team18_Moidz_portfolio
-This the repo to Moidz portfolio template
+# Team18_CMS_frontend
+This the repo to all our cms front end code
