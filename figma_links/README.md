@@ -10,5 +10,7 @@ Click on any of the following to access the Figma Designs</br>
 * [Forge Frequently Asked Page](https://www.figma.com/file/fjWpmS7WbMPzQXzyRMegBN/FORGE-Frequently-Asked-Question-Page?node-id=0%3A1)
 * [Forge Contact Us Page](https://www.figma.com/file/RvCvJpTPoSG4VR0f7Cpl47/FORGE-Contact-Us-Page?node-id=0%3A1)
 * [Forge Terms Of Use Page](https://www.figma.com/file/oC82NeBsXK03C4yLvCa6DX/FORGE-Terms-Of-Use-Page?node-id=0%3A1)
-**NOTE**: To add your link, copy and edit the link below and add it to the list above<br/>
+
+<p><strong>NOTE</strong>: To add your link, copy and edit the link below and add it to the list above</p>
+
 * [Link Text Goes Here](link-url-goes-here)
