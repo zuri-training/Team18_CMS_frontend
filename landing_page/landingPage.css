@@ -745,7 +745,9 @@
 
 .footer--section__subscribe--input {
     display: flex;
-    width: 120%;
+    margin-top: 2%;
+    justify-content: space-between;
+    width: 110%;
     border: 1px solid #222222;
     border-radius: 5px;
 }
@@ -753,11 +755,10 @@
 .footer--section__input {
     padding: 3.5%;
     background: #E0EDF2;
-    width: 100%;
+    font-family: 'Montserrat';
     border: none;
     outline: none;
     border-radius: 5px;
-    margin-top: 2%;
 }
 
 .footer--section__input::-webkit-input-placeholder {
@@ -775,10 +776,8 @@
     outline: none;
     color: #FFFFFF;
     font-family: 'Montserrat';
-    padding: 0.5%;
-    margin-left: 16%;
-    margin-top: 2px;
-    position: absolute;
+    padding: 1.5%;
+    margin: 1%;
 }
 
 .footer--section__connect {
