@@ -1,7 +1,7 @@
 # Team18_CMS_frontend
 This repo contains the frontend code for Forge(my_cms project)
 
-## Contribution Guide
+## Contribution Guide (for Frontend only)
 
 ### Fork this repository
 This creates a copy of this repository and saves it to your own personal Github account
