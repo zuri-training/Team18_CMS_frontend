@@ -8,6 +8,8 @@ Click on any of the following to access the Figma Designs</br>
 * [FORGE About Page](https://www.figma.com/file/tT1CJOXJmWhsRNmrHv0ZRL/FORGE-About-Page?node-id=0%3A1)
 * [FORGE Features Page](https://www.figma.com/file/AXsrkYeTZ8hkOCcD0uJVXZ/FORGE-Features-Page?node-id=0%3A1)
 * [Forge Frequently Asked Page](https://www.figma.com/file/fjWpmS7WbMPzQXzyRMegBN/FORGE-Frequently-Asked-Question-Page?node-id=0%3A1)
+* [FORGE Log In Page](https://www.figma.com/file/IwKAo5qWVvSjptxx10BBeA/FORGE-Log-In-Page?node-id=0%3A1)
+* [FORGE Sign Up Page](https://www.figma.com/file/WceZZwbWnCohWPemdnWAnq/FORGE-Sign-Up-Page?node-id=0%3A1)
 * [Forge Contact Us Page](https://www.figma.com/file/RvCvJpTPoSG4VR0f7Cpl47/FORGE-Contact-Us-Page?node-id=0%3A1)
 * [Forge Terms Of Use Page](https://www.figma.com/file/oC82NeBsXK03C4yLvCa6DX/FORGE-Terms-Of-Use-Page?node-id=0%3A1)
 * [Forge Support Page](https://www.figma.com/file/VLoMaAzcwvYr9LdpsUUPoU/Forge-support-page?node-id=0%3A1)
