@@ -5,6 +5,7 @@ Click on any of the following to access the Figma Designs</br>
 * [General Figma Board](https://www.figma.com/file/6xMuG1SZqRbyKbkS1maJSm?)
 * [Forge Posts Page](https://www.figma.com/file/qEmDW2ON0zFw6jLqtOcsqf/Forge-posts-page?node-id=0%3A1)
 * [FORGE Landing Page](https://www.figma.com/file/27MtrdotRFasRbYYkMbjO8/FORGE-Landing-Page?node-id=0%3A1)
+* [FORGE Homepage](https://www.figma.com/file/wjPNQDmu6l02vWgLWULRfb/FORGE-Homepage?node-id=0%3A1)
 * [FORGE About Page](https://www.figma.com/file/tT1CJOXJmWhsRNmrHv0ZRL/FORGE-About-Page?node-id=0%3A1)
 * [FORGE Features Page](https://www.figma.com/file/AXsrkYeTZ8hkOCcD0uJVXZ/FORGE-Features-Page?node-id=0%3A1)
 * [Forge Frequently Asked Page](https://www.figma.com/file/fjWpmS7WbMPzQXzyRMegBN/FORGE-Frequently-Asked-Question-Page?node-id=0%3A1)
