@@ -1,0 +1,1 @@
+The second page of introductions(2/2) a user sees for the first time visiting the landing page of FORGE.
