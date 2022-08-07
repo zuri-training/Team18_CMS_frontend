@@ -19,6 +19,7 @@ Click on any of the following to access the Figma Designs</br>
 * [FORGE Settings Page](https://www.figma.com/file/DVWD9MCAIR3hMUScWRKMFJ/Settings-page?node-id=0%3A1)
 * [FORGE Website Builder Page](https://www.figma.com/file/vagPfMpQJqn5ynxT4iofwe/Forge-Website-Builder-Page?node-id=0%3A1)
 * [FORGE Error Page](https://www.figma.com/file/2qMLHmy9AhMPcYUKUrY8J0/FORGE-Error-Page?node-id=0%3A1)
+* [FORGE Activity Page](https://www.figma.com/file/cJruIjeR34J7v4o9KPqsKu/FORGE-Activity-Page?node-id=0%3A1)
 <p><strong>NOTE</strong>: To add your link, copy and edit the link below and add it to the list above</p>
 
 * [Link Text Goes Here](link-url-goes-here)
