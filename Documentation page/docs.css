@@ -1,0 +1,48 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+   }
+   .dot{
+    width: 10px;
+    height: 10px;
+    background: rgb(10, 106, 216);
+    margin: 6px;
+    border-radius: 100%;
+    box-shadow: inset 0px 0px 0px 2px white;
+    border: 1px solid rgb(34, 0, 255);
+   }
+   .container{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-top: 40px;
+    font-size: 20px;
+    font-weight: bolder;
+   }
+   #des{
+    padding-left: 180px;
+   }
+   #pro{
+    padding-right: 180px;
+   }
+   
+   .container1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 50px;
+    padding-bottom: 500px;
+   }
+   #blue{
+    background-color: #d9ebee;
+    padding: 14px;
+    padding-top: 35px;
+    font-weight: bold;
+   }
+   #white{
+    padding-left: 70px;
+   }
+   #doc{
+    font-size: 200%;
+    font-weight: bold;
+   }
+   h4{
+    padding-top: 18px;
+   }
