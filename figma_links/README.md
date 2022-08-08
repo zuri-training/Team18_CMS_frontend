@@ -21,6 +21,6 @@ Click on any of the following to access the Figma Designs</br>
 * [FORGE Error Page](https://www.figma.com/file/2qMLHmy9AhMPcYUKUrY8J0/FORGE-Error-Page?node-id=0%3A1)
 * [FORGE Activity Page](https://www.figma.com/file/cJruIjeR34J7v4o9KPqsKu/FORGE-Activity-Page?node-id=0%3A1)
 * [Forge intro & Dashboard](https://www.figma.com/file/lCZZ5ADhiLUMPtqZ8cjBkv/Zuri-project-team-18?node-id=0%3A1)
-<p><strong>NOTE</strong>: To add your link, copy and edit the link below and add it to the list above</p>
+<p><strong>NOTE</strong>: To add your link, copy and edit the link format below and add it to the list above</p>
 
 * [Link Text Goes Here](link-url-goes-here)
