@@ -1,0 +1,164 @@
+*{ margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.main_header{
+  /* position: fixed; */
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 0.5rem 3rem;
+  align-items: center;
+}
+body{
+  background-color: #fff;
+  
+}
+form {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.searchbar {
+  display: flex;
+  /* margin: 0.5rem; */
+  border: none;
+  outline: none;
+  /* border-color: grey; */
+  padding-left: 10px;
+}
+.searchbar input {
+  border : none;
+  outline: none;
+  /* color: rgba(34, 34, 34, 0.5); */
+  margin-left: 5px;
+  font-size: 1rem;
+  /* background-color: #222222; */
+}
+input{
+  border: none;
+  padding: 0.5rem;
+  /* color: rgba(34, 34, 34, 0.5) */
+}
+.place{
+  margin-left: 5px;
+}
+.user{
+  display: flex;
+  justify-content: space-between;
+}
+.icon{
+  display: flex;
+  justify-content: space-between;
+}
+.bell{
+  margin-right: 1rem;
+}
+.account_1{
+  padding: 0 0.5rem;
+}
+.top{
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+.logo{
+  padding: 0 1.5rem;
+}
+/* HAMBUGER MENU FOR HEADER */
+.list-items a{
+  color: black;
+  /* display: block; */
+  /* width: 100%; */
+  line-height: 60px;
+  text-decoration: none;
+  padding-left: 40px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+.list-items a:hover{
+  background: #607EAA;
+}
+.list-items i{
+  padding-right: 10px;
+}
+label #sidebar_btn{
+color: #fff;
+  cursor: pointer;
+  font-size: 50px;
+  margin: 10px 0;
+  transition: 0.5s;
+  transition-property: color;
+  height: 40px;
+}
+
+label #sidebar_btn:hover{
+  color: #607EAA;
+}
+#check:checked  .list-items{
+  left: 190px;
+} 
+#check:checked  .list-items a span{
+  display: none;
+}
+#check :checked .list-items a{
+  font-size: 20px;
+  margin-left: 100px;
+  width: 80px;
+}
+.list-items{
+  background: #F5EEDC;
+  /* margin-top: 20px; */
+  padding-top: 70px;
+  width: 250px;
+  height: 100vh;
+  transition: 0.5s ease;
+  transform: translateX(0);
+  display:none;
+  z-index: 1;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  }
+  
+  #check:checked  .list-items{
+    left: 190px;
+  } 
+  
+  
+  
+  
+.Account{
+  color: black;
+}
+.content{
+  display: grid;
+  grid-template-columns: repeat(4,1fr); 
+  grid-template-areas: 232px;
+  gap: 10px;
+  width: 80%;
+  margin:auto;
+  padding-left: 100px;
+}
+.content div{
+    padding: 1px;
+    text-align: center;
+}
+  .von{
+    width: 232px;
+    height: 302px;
+  }
+  .flex{
+    display: flex;
+    justify-content:center
+  }
+  .bottom{
+    color: darkgreen;
+    font-size: 15px;
+  }
+    
+  
+  
+  
