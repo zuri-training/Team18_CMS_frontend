@@ -1,2 +1,0 @@
-- Google Link : https://google.com.ng
-- Facebook Link: https://facebook.com
