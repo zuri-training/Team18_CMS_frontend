@@ -8,6 +8,10 @@
     background: #FFFFFF;
 }
 
+.img {
+    width: 450px;
+}
+
 .error-content {
     margin: 4% auto;
     text-align: center;
@@ -35,11 +39,10 @@
     font-size: 22px;
     line-height: 32px;
     color: #222222;
-    padding-bottom: 40px;
+    padding-bottom: 37px;
 }
 
 .error-button {
-    padding: 20px 25px;
     background: #64A6BD;
     border-radius: 4px;
     border: none;
@@ -58,4 +61,35 @@
     font-size: 22px;
     line-height: 17px;
     text-transform: uppercase;
+}
+
+
+@media (max-width: 768px) {
+    * {
+        overflow: hidden;
+    }
+    .img {
+        width: 250px;
+    }
+    .error-text--heading {
+        font-size: 22px;
+    }
+    .error-text--para {
+        font-size: 18px;
+    }
+    .error-button {
+        width: 280px;
+        height: 45px;
+    }
+    .error-link {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 15px;
+    }
+}
+
+@media (max-width: 400px) {
+    .error-content {
+        margin: 40% auto;
+    }
 }
