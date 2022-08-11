@@ -1,373 +1,1105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- <meta charset="UTF-8">
- <meta http-equiv="X-UA-Compatible" content="IE=edge">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <link rel="stylesheet" href="docs.css">
- <title>Documentation page</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="docs.css">
+    <title>Documentation</title>
 </head>
 <body>
-   <div class="container">
-      <div id="des">For Designers <div class="dot"></div></div>
+    <main class="container">
+        <section class="header-section">
+            <header class="navbar">
+                <div class="navbar__brand--logo">
+                    <a href="" class="brand--logo">
+                        <img src="/Group 271 (1).png" alt="">
+                    </a>
+                </div>
 
-      <div id="pro">For Programmers<div class="dot"></div> </div>
-   </div>
-   <div class="container1">
-      <div id="blue">
-         INTRODUCTION <br><br><br><br>
-         AUTHENTICATION <br><br><br><br>
-         WEBSITES <br><br><br><br>
-         TEMPLATES <br><br>
-      </div>
-      <div id="white">
-         <div id="doc">Documentation (Designers) </div> <hr>
-            <h4 >Introduction</h4>
-            <p>
-                Team 18 My_cms documentation
-                DESIGN AND IMPLEMENTATION OF A CONTENT MANAGEMENT SYSTEM
-                (FORGE)
-                A CASE STUDY OF WORDPRESS
-                BY
-                TEAM 18 MY_CMS
-                July, 2022.
-                DESIGN AND IMPLEMENTATION OF A CONTENT MANAGEMENT SYSTEM
-                (FORGE)
-                CHAPTER ONE
-                1.1 INTRODUCTION
-                1.2 BACKGROUND OF STUDY
-                1.3 SCOPE AND LIMITATIONS
-                1.4 AIMS AND OBJECTIVES
-                CHAPTER TWO
-                SYSTEM ANALYSIS AND DESIGN
-                2.1 INTRODUCTION
-                2.2 SOFTWARE DEVELOPMENT LIFECYCLE
-                2.3 WATERFALL MODEL
-                2.4 REQUIREMENT ELICITATION
-                2.5 DESCRIPTION OF THE PROPOSED SYSTEM
-                2.6 REQUIREMENT DEFINITION
-                2.6.1         FUNCTIONAL REQUIREMENT OF THE PROPOSED SYSTEM
-                2.6.1.1 USER REQUIREMENT
-                2.6.1.2 SYSTEM REQUIREMENT
-                2.6.2 NON-FUNCTIONAL REQUIREMENTS
-                A. PRODUCT REQUIREMENT
-                C. EXTERNAL REQUIREMENT
-                2.7 REQUIREMENT ANALYSIS
-                2.7.1 USE CASE
-                2.7.1.1 Use Case: Register
-                2.7.1.2 Use Case: Login
-                2.7.1.3 Use Case: Select Template
-                2.8 REQUIREMENT DESIGN
-                2.8.1 CLASS DIAGRAM
-                2.8.2 ACTIVITY DIAGRAM
-                2.8.2.1 USER ACTIVITY
-                2.9 DATABASE DESIGN
-                CHAPTER ONE
-                1.1 INTRODUCTION
-                A Content Management System (CMS) is a web application designed to allow users to collaboratively create, store, edit, review, index, search, publish and archive various kinds of digital media and electronic text.
-                A CMS provides a graphical user interface with tools to create, edit and publish web content without need to write a code from scratch. It has two components: a content management application (CMA) and a content delivery application (CDA).
-                The CMA is a graphical user interface that enables users to design, create, modify and remove content from a website without HTML knowledge.  
-                The CDA component provides the back-end services that support management and delivery of the content once a user creates it in the CMA.
-                Any user with administration rights over a website can use the Content Management System to create free-form content throughout the site. Some of these websites are:
-                WordPress: WordPress is the world’s most popular CMS by far. It powers over 37% of all websites on the Internet. It started as a blogging platform but has long-since morphed into a full CMS that you can use to build any type of website, from ecommerce stores to membership sites, forums, and more.
-                Drupal: another popular open source CMS that fits in the same space as WordPress.
-                With its flexible taxonomy system, Drupal excels when it comes to managing sites with large amounts of content. It also has a built-in user access system that gives you plenty of control over what registered users can do inside the CMS.
-                Like WordPress, you can control how your site looks using themes and extend Drupal’s functionality with modules.
-                Joomla :Joomla comes with large marketplaces for templates and extensions, which helps you create a website that matches your needs just like WordPress and Drupal .
-                In terms of the technical knowledge that’s required, Joomla offers a nice middle-ground between WordPress and Drupal.
-                1.2 BACKGROUND OF STUDY
-                The study of  CMS centers on creating a platform that will offer the best services of building basic websites such as landIng page, portfolio websites,blog and other basic websites to the masses which will enable its users to create,edit,remove and publish web content to the best of their interest; without  knowledge in coding.it will also allow the users to download and save their edited template. In the design of this web app, HTNmL, CSS, JavaScript, Python and Django.
-                1.3 SCOPE AND LIMITATIONS 
-                This project work will be basically designed for FORGE which will provide better customer service like contact form and live chats Incase of any enquiry.
-                At the first phase of this project, which is data gathering, challenges were faced due to the fact that research data was difficult to gather at the initial time.
-                1.4 AIMS AND OBJECTIVES
-                The aim of this study is to develop a web app which will allow users to browse through the templates, navigate through the site, change templates, and set up a website by filling in some information without prior knowledge in coding.
-                In this study, the researchers hope to achieve the following objectives:
-                To develop a user friendly system with navigation ease for FORGE.
-                Allow users to easily create a website from pre-existing templates or by importing theirs.
-                Allow easy modification of templates with the ability to save work for future use.
-                Download website templates.
-                Publish Website with a custom Universal Resource Locator (URL) directly from the web application
-                CHAPTER TWO
-                SYSTEM ANALYSIS AND DESIGN
-                2.1 INTRODUCTION
-                This chapter describes the method used during analysis which is the use case diagram and design which shows the class diagram and the activity diagram of each participant of the system; the model used for the software development lifecycle,the elicitation method used,and the functional and non-functional requirements of the system.
-                2.2 SOFTWARE DEVELOPMENT LIFECYCLE
-                Software development life cycle is the systematic process used for building software and ensuring the correctness and quality of the software built. It is a process used for planning, creating, testing and implementing an information system.
-                In this project, a waterfall model will be used in the development process.
-                2.3 WATERFALL MODEL
-                This is a plan driven process in which the developers plan and schedule all the process activities before starting work on them. The waterfall model consists of five (5) phases as presented in Figure 2.1 below
-                
-                 Figure 2.1 Waterfall model
-                2.4 REQUIREMENT ELICITATION
-                The process of software development consists of the knowledge processes among which are requirement elicitation processes. The purpose of requirement elicitation is to gain knowledge about the user's requirement.
-                Requirement elicitation involves technical staff working with users to find out about the application domain, the services the system should provide and the system operational constraints.
-                In this project, the Brainstorming and Interviewing method was used for the elicitation technique.
-                Brainstorming: This is a great technique used to accomplish a variety of business analysis activities. It is used in requirement elicitation to get as many ideas as possible from a group of people in order to identify possible solutions to problems.
-                During this process, system analysts of like minds were approached to discuss the proposed system. With this method, information was gathered on how the system should look like, how the interface should look, how the system should interact with its user, and how the system should respond to the user’s request.
-                An Interview can be a structured or unstructured form, either written or printed. It consists of a formalized set of questions designed to collect some information on some subject or subjects from respondents. The questions may be a combination of open-ended and closed-ended questions.
-                This method is frequently the best source of gathering qualitative information. It is useful for those who could not communicate effectively in writing or those who may not have time to complete a questionnaire.
-                2.5 DESCRIPTION OF THE PROPOSED SYSTEM
-                Forge is a continent management system that allows users to spin up a basic website and also allow as much customization as possible.
-                The system enables User to
-                Use the search features to find specific templates.
-                Edit,add,remove template after login to the web page.
-                Give feedback for the services rendered.
-                 Publish a Website with an allocated domain.
-                The system enables admin to
-                Add and delete Templates
-                See and attend to users feedback
-                2.6 REQUIREMENT DEFINITION
-                The software requirement specification shows the functional and non-functional requirements, and it includes a use case that describes user interaction that the software must provide to the user for easy usage.
-                2.6.1         FUNCTIONAL REQUIREMENT OF THE PROPOSED SYSTEM
-                These are statements of services the system should provide; how the system should react to particular inputs, and how the system should behave in particular situations. In some cases, the functional requirements may also explicitly state what the system should not do.
-                2.6.1.1 USER REQUIREMENT
-                User requirement specifications describe the need for what is required by the users from the system. The following are the user requirements of the system.
-                The user shall be able to register their personal details such as Name, Phone Number and Email
-                After being registered, the user shall be able to login to the system.
-                The user shall be able to search and view templates.
-                User shall be able to customize templates.
-                User shall be able to publish websites.
-                  The admin shall be able to add and remove templates.
-                Admin shall be able to see and attend to user’s feedback.
-                2.6.1.2 SYSTEM REQUIREMENT
-                A system requirement is the functionality that is needed by a system in order to satisfy the customer’s requirements. Listed below are some of the requirements needed by the system.
-                I. The system shall be able to receive user details.
-                II. The system shall be able to compile user details for proper documentation and database.
-                III. The system shall be able to keep or store user records.
-                IV. The system shall be able to accept user feedback and report feedback to the administrator.
-                2.6.2 NON-FUNCTIONAL REQUIREMENTS
-                Non-functional requirements are constraints on the functional requirements or quality requirements. These requirements are product requirements, organizational requirements and external requirements.
-                A. PRODUCT REQUIREMENT
-                Product requirement includes all the functions, features and behaviors the product must possess in order to be efficient, safe and easy to use. The product requirement of the system is listed below.
-                Performance: The system shall be fast in accomplishing tasks so as to give its maximum performance. Speed is an execution quality which is observed during runtime and response time. Therefore, the system must give its maximum performance.
-                Maintainability: The system shall be easy to maintain in order to fix problems or causes, repair or replace faulty components so as to maximize efficiency, reliability and safety usage.
-                Security: security is important in any software engineering; so as to prevent access to the system from unauthorized users or intruders.FORGE  shall be able to protect user details such as password
-                Availability: the system shall be available to the administrator and the customers all the time.
-                B. ORGANIZATIONAL REQUIREMENT
-                Organizational requirement is derived from the policies and procedures of an organization. some of these policies are:
-                Accessibility: FORGE users shall be able to access their profile using the login button and if the user is new to the system, the user will have to register in order to have a profile and with that, user can have access to the templates.
-                Backup/Recovery: The system shall be able to backup and recover stored data/information in case any failure occurs in the system such as virus attack or system crashes so as to prevent data loss.
-                C. EXTERNAL REQUIREMENT
-                External requirement is that which affects the software or its development process externally.
-                Security: The system shall be protected so as to prevent access from unauthorized users or intruders.
-                2.7 REQUIREMENT ANALYSIS
-                The use case diagram is a graphical representation that is used to define the core elements and processes that make up the system. The key elements are termed as “actors” and the processes are called “use cases”.
-                2.7.1 USE CASE
-                A use case is a description of how a user interacts with a system or product. Figure 2.2 below shows the operation of the user and administration on the FORGE web app.
-                Figure 2.2 Use case Diagram
-                Following below are the breakdown of the individual use cases; each showing the actors, input and outputs respectively.
-                2.7.1.1 Use Case: Register
-                1.1 Introduction
-                This use case documents the procedure for logging in to the FORGE web app
-                1.2 Actors: Admin, User
-                1.3 Pre-condition: none.
-                1.4 Post-condition: if the use case is successful, the user will be asked to log in to the system; otherwise, the system error is displayed.
-                1.5 Flow of events
-                The system requests the user to enter his/her name, phone number,email address and password.
-                User enters his/ her requested details
-                User submits the input details
-                The system displays a success message if the registration is successful. Otherwise, an error message is being displayed.
-                The use case ends
-                2.7.1.2 Use Case: Login
-                1.1 Introduction
-                This use case documents the procedure for the user to view templates, customize template and publish their desired website.
-                1.2 Actors: Admin, User
-                1.3 Pre-Condition: Registration
-                1.4 Post-condition: if the use case is successful, the admin or the User is logged in to the system; otherwise, the User or admin is unable to log in.
-                1.5 Flow of event:
-                The system requests the user to enter his or her email address and password.
-                The user enters his or her email address and password.
-                The system validates the user’s details.
-                If the email address and password is correct, the user is logged in to the system; otherwise an error message is displayed.
-                Use case ends.
-                2.7.1.3 Use Case: Select Template
-                1.1 Introduction
-                This use case displays templates to the user
-                1.2 Actors: User
-                1.3 Pre-condition: Be a registered user.
-                1.4 Post-condition: if the use case is successful, the user can select a template.
-                1.5 Flow of event:
-                The system requires the user to select a template
-                The user selects his or her desired template and customize.
-                The system allocates the template to the user.
-                When user add desired features to the template.
-                If user is satisfied with the customization, he or she can proceeds to publishing
-                 Use case ends.
-                2.8 REQUIREMENT DESIGN
-                The functional requirements of the system are being converted into design. Therefore, this section will explain the structural design (class diagram) and behavioral design (activity diagram) of the system respectively.
-                2.8.1 CLASS DIAGRAM
-                Class diagrams are used when developing an object oriented system model to show the classes in a system and the associations between these classes. Loosely, an object class can be thought of as a general definition of one kind of system object. An association is a link that indicates that there is a relationship between these classes.
-                The Figure2.3 below is the class diagram that shows the relationship between the User and the classes of the system.
-                
-                Figure 2.3 user class Diagram
-                2.8.2 ACTIVITY DIAGRAM
-                An activity diagram is a behavioral diagram that depicts the behavior of a system. It portrays the control flow from the start point to a finish point showing the various paths that exist while the activity is being executed.
-                2.8.2.1 USER ACTIVITY
-                User activity depicts the behavior of the user of the system as shown in Figure 2.4 below.
-                
-                Figure 2.4 User Activity Diagram
-                2.9 DATABASE DESIGN        
-                The database for this system has been designed with MYSQL. This is due to its reliability, flexibility, ease of use, popularity and cost efficiency. The database includes the following tables: Table 1 gives the users database design, Table 2 gives the original template database design, while Table 3 presents user template database design.
-                Table 1: User Database Design
-                s/n
-                Name
-                Data Type
-                Description
-                1.
-                id
-                INT
-                primary key
-                2.
-                Name
-                VARCHAR
-                3.
-                Email
-                VARCHAR
-                4.
-                Password
-                VARCHAR
-                5.
-                created_at
-                TIMESTAMP
-                6.
-                Updated_at
-                TIMESTAMP
-                Table 2: Original Template Database Design
-                s/n
-                Name
-                Data Type
-                Description
-                1.
-                id
-                INT
-                primary key
-                2.
-                Name
-                VARCHAR
-                3.
-                Content
-                MEDIUMTEXT
-                4.
-                Preview_image
-                VARCHAR(255)
-                5
-                author
-                BIGINT
-                6.
-                created_at
-                TIMESTAMP
-                7.
-                udated_at
-                TIMESTAMP
-                Table 3: user_template Database Design
-                S/n
-                Name
-                Data Type
-                Description
-                1.
-                id
-                BIGINT
-                Primary key
-                2.
-                Name
-                VARCHAR(255)
-                3.
-                content
-                MEDIUMTEXT
-                4.
-                original_template
-                BIGINT
-                5.
-                user
-                BIGINT
-                6.
-                status
-                TINYINT
-                7.
-                created_at
-                TIMESTAMP
-                8.
-                updated_at
-                TIMESTAMP
-                CHAPTER THREE
-                SYSTEM IMPLEMENTATION AND TESTING
-                3.1 INTRODUCTION
-                Before implementing the actual design of the product, a few user interface designs were constructed to visualize the interaction with the system as they browse for templates, create a website and publish a site.
-                The main functions of the system include Building website, Editing Templates, Website Management and implementation of user login and registration. Also, the System Supports MYSQL which interacts with databases and performs data Manipulation.
-                3.2 SOFTWARE DEVELOPMENT
-                The System platform used, the IDE (Integrated Development Environment) and the programming language used will be discussed here.
-                The system platform used is Windows 10. Also the Integrated Development Environment used is Visual Studio code the latest version and the Programming language used is Python. Python is a high level, general purpose programming language. its design philosophy emphasizes code readability with the use of significant indentation.
-                The tools chosen for developing this system are: HTML5, Python3, JavaScript, Django and SQLite3. They are chosen based on their popularity and ease of use.
-                  HTML 5: Hypertext Markup Language (HTML), the standard programming for describing the contents and appearance of web pages.it is the most common language used in creating web pages. A markup language is a set of markup tags and the tags describe document content.
-                Python 3:  is a high level, general purpose programming language. its design philosophy emphasizes code readability with the use of significant indentation. It is often used to build websites and software, automate tasks, and conduct data analysis.
-                JavaScript: JavaScript is a client-side scripting or programming language that allows you to implement complex features on web pages.
-                Django: Django is a high-level python web framework that encourages rapid development of secure, maintainable and clean websites.
-                SQLITE3: SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine. SQLite is the most used database engine in the world. SQLite is built into all mobile phones and most computers and comes bundled inside countless other applications that people use every day.
-                3.3 SYSTEM REQUIREMENTS
-                System requirements are the configuration or required specification that a system must have in order for a hardware or software application to run smoothly and efficiently. Failure to meet these requirements can result in installation problems or performance problems. Installation problems may prevent a device or application from being installed, whereas performance problems may cause a product to malfunction or perform below expectation or may even hang or crash.
-                3.3.1 Hardware Requirement
-                           I.            PC with 2 GB hard-disk and 250MB RAM
-                        II.            Disk Storage: 2 GB of free disk space
-                 
-                 
-                3.3.2 SOFTWARE REQUIREMENT
-                   Windows 2000/ XP/ or Higher with MS-office.
-                Ms-Internet Explorer, Mozilla Firefox, Google Chrome, Safari.
-                  CPU: Intel or AMD processor with 64-bit support.
-                Internet connection required for software activation.
-                3.4 SYSTEM IMPLEMENTATION
-                System implementation is the process of defining how the system should be built, ensuring that the system is operational and used and also ensuring that the system meets the quality standard.
-                3.4.1 DESCRIPTION OF SYSTEM IMPLEMENTATION
-                Since the objective of this project is to develop and implement a content management website where users can create, personalize and edit the usability and functionality of any website of their choice through the template provided by the system. The system was implemented using HTML5, CSS3, JavaScript, SQLite3, Python 3 and Django. The system is designed and programmed to validate the user's input. when the user typed in the Universal Resource Locator (URL) on the browser, the web server is to accept the incoming http request and return the requested resource in the http response.
-                </p>
-            <h4>Authentication</h4>
-            <p>
-                Team'18 my_cms User Documentation
-                Getting Started with Forge
-                This documentation is your Forge reference manual. No matter how experienced you are or what you want to achieve, it should cover everything you need to know from navigating the interface, to making the most of different features.
-                Forge is a web app that allows you to spin
-                spin up a basic website and allow as much customizations as possible.
-                If you’re an absolute beginner looking for some help getting started, or a Forge veteran looking for in-depth guides on things like best practice or collaboration, we’ve listed some  tips to guide you.
-                Let’s take a step-by-step tour through your Forge web app and see how the different functions work and how to make your new site your own.
-                
-                Sign Up
-                If you want to create your project with Forge, we recommend you sign up with your email and password. Or you can directly sign up with your Google account.
-                If you already have a Forge account and you want to create a new project,  Sign In, select a blank project or choose a template.
-                Check out our welcome to Forge guide.
-                We have created a series of guides that will help you make the most of your web app: from creating a new project, to choosing your desired templates and customization and publishing.
-                These are great ways to get the most of your web app. But if you want to know more about a specific feature on your web app, you can always come back to the documentation.
-                Selecting your desired template
-                Editing your templates
-                Adding more features to your templates
-                Removing some features from your templates
-                Saving your work
-                Publishing your website
-                
-                Editing Your Template
-                In order to edit your desired template. Ensure you are signed in to activate the Edit Button.
-                Click on the “Edit” button
-                Add your Desired features
-                Remove Features that are not needed.
-                Ensure the Functionality of your website
-                Save your work.
-                Forget Your Password? You can reset your password.
-                To reset your password, follow the following steps:
-                On the Sign In page, click on Forget password. It will bring you to the page in the Figure below.
-                
-                Enter the same email you used to register with Forge then click on the "Send Email" button. A mail will be sent to you that will enable you to reset your password.
-                Provide Security To Your Login
-                Two - factor Authentication adds an extra layer of security to your account. Once enabled, logging in to your Forge web app will require you to enter a unique passcode sent to your Mobile device via text or email in addition to your username and password.
-                To Enable Two-Factor Verification for your Logins :
-                Go to settings
-                Select Login and security
-                Click on Two Factor Authentication
-                </p>
-            <h4>Websites</h4>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui accusamus mollitia nisi voluptate odio temporibus maxime ad fuga non totam. Accusantium, atque. Reiciendis consectetur nam excepturi quia, tempora reprehenderit sed.</p>
-           <h4>Templates</h4>
-           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui accusamus mollitia nisi voluptate odio temporibus maxime ad fuga non totam. Accusantium, atque. Reiciendis consectetur nam excepturi quia, tempora reprehenderit sed.</p>
-      </div>
-   </div><div class="dot">  Yesss</div>
+
+                <div class="navbar__brand--middle">
+                    <main class="navbar__brand--item">
+                      <div class="navbar__brand--list">
+                        <button class="nav-btn">
+                          Create
+                          <img src="Vector.png" alt="" class="vector" />
+                        </button>
+                        <main class="dropdown" id="dropdown">
+                          <div class="dropdown-list">
+                            <div class="drop-content">
+                              <div class="first-content">
+                                <a href="" class="content-link">
+                                  <div class="content-heading">
+                                    <span>Website Templates</span>
+                                  </div>
+                                  <div class="content-para">
+                                    <span>
+                                      Discover ways and ideas on how to create the website
+                                      of your choice.
+                                    </span>
+                                  </div>
+                                </a>
+                              </div>
+                              <div class="content">
+                                <a href="" class="content-link">
+                                  <div class="content-heading">
+                                    <span>Photography Templates</span>
+                                  </div>
+                                  <div class="content-para">
+                                    <span>
+                                      Click here to view all trendy photograph templates
+                                      available.
+                                    </span>
+                                  </div>
+                                </a>
+                              </div>
+                            </div>
+                            <div class="hoz-line"></div>
+                            <div class="drop-content">
+                              <div class="second-content">
+                                <a href="" class="content-link">
+                                  <div class="content-heading">
+                                    <span>Portfolio Templates</span>
+                                  </div>
+                                  <div class="content-para">
+                                    <span>
+                                      Click here to view all trendy portfolio templates
+                                      available.
+                                    </span>
+                                  </div>
+                                </a>
+                              </div>
+                              <div class="content">
+                                <a href="" class="content-link">
+                                  <div class="content-heading">
+                                    <span>Education Templates</span>
+                                  </div>
+                                  <div class="content-para">
+                                    <span>
+                                      Click here to view all trendy education templates
+                                      available.
+                                    </span>
+                                  </div>
+                                </a>
+                              </div>
+                            </div>
+                            <div class="hoz-line"></div>
+                            <div class="content">
+                              <a href="" class="content-link">
+                                <div class="content-heading">
+                                  <span>Blog Templates</span>
+                                </div>
+                                <div class="content-para">
+                                  <span>
+                                    Click here to view all trendy blog <br />
+                                    templates available.
+                                  </span>
+                                </div>
+                              </a>
+                            </div>
+                            <div class="hoz-line1"></div>
+                            <div class="content">
+                              <a href="" class="content-link">
+                                <div class="content-heading">
+                                  <span>Business Templates</span>
+                                </div>
+                                <div class="content-para">
+                                  <span>
+                                    Click here to view all trendy business <br />
+                                    templates available.
+                                  </span>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </main>
+                      </div>
+                      <div class="navbar__brand--list">
+                        <button class="nav-btn">
+                          Build
+                          <img src="Vector.png" alt="" class="vector" />
+                        </button>
+                        <main class="dropdown1" id="dropdown">
+                          <div class="dropdown-list">
+                            <div class="content">
+                              <a href="" class="content-link">
+                                <div class="content-heading">
+                                  <span>Professional Portfolio</span>
+                                </div>
+                                <div class="content-para">
+                                  <span>
+                                    Find everything you need to build your own
+                                    professional portfolio.
+                                  </span>
+                                </div>
+                              </a>
+                            </div>
+                            <div class="hoz-line"></div>
+                            <div class="content">
+                              <a href="" class="content-link">
+                                <div class="content-heading">
+                                  <span>Custom Domains</span>
+                                </div>
+                                <div class="content-para">
+                                  <span>
+                                    Find everything you need to build your own custom
+                                    domains.
+                                  </span>
+                                </div>
+                              </a>
+                            </div>
+                            <div class="hoz-line"></div>
+                            <div class="content">
+                              <a href="" class="content-link">
+                                <div class="content-heading">
+                                  <span>Logo Maker</span>
+                                </div>
+                                <div class="content-para">
+                                  <span>
+                                    Find everything you need to build your own logo maker.
+                                  </span>
+                                </div>
+                              </a>
+                            </div>
+                            <div class="hoz-line"></div>
+                            <div class="content">
+                              <a href="" class="content-link">
+                                <div class="content-heading">
+                                  <span>SEO Tools</span>
+                                </div>
+                                <div class="content-para">
+                                  <span>
+                                    Find everything you need to build your own SEO tools.
+                                  </span>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </main>
+                      </div>
+                      <div class="navbar__brand--list">
+                        <button class="nav-btn">
+                          Develop
+                          <img src="Vector.png" alt="" class="vector" />
+                        </button>
+                        <main class="dropdown1" id="dropdown">
+                          <div class="dropdown-list">
+                            <div class="content">
+                              <a href="" class="content-link">
+                                <div class="content-heading">
+                                  <span>All Posts and Tools</span>
+                                </div>
+                                <div class="content-para">
+                                  <span>
+                                    Find everything you need to build your own website to
+                                    your taste.
+                                  </span>
+                                </div>
+                              </a>
+                            </div>
+                            <div class="hoz-line"></div>
+                            <div class="content">
+                              <a href="" class="content-link">
+                                <div class="content-heading">
+                                  <span>Explore</span>
+                                </div>
+                                <div class="content-para">
+                                  <span>
+                                    Explore over 100 ready-made templates, and start with
+                                    the right one for you.
+                                  </span>
+                                </div>
+                              </a>
+                            </div>
+                            <div class="hoz-line"></div>
+                            <div class="content">
+                              <a href="" class="content-link">
+                                <div class="content-heading">
+                                  <span>Learn More</span>
+                                </div>
+                                <div class="content-para">
+                                  <span>
+                                    Click here to learn how to navigate through the
+                                    websites.
+                                  </span>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </main>
+                      </div>
+                      <div class="navbar__brand--list">
+                        <button class="nav-btn">
+                          Resources
+                          <img src="Vector.png" alt="" class="vector" />
+                        </button>
+                        <main class="dropdown1" id="dropdown">
+                          <div class="dropdown-list">
+                            <div class="content">
+                              <a href="" class="content-link">
+                                <div class="content-heading">
+                                  <span>Customize your website</span>
+                                </div>
+                                <div class="content-para">
+                                  <span>
+                                    Pick a template and customize anything, get a free
+                                    website designed just for you.
+                                  </span>
+                                </div>
+                              </a>
+                            </div>
+                            <div class="hoz-line"></div>
+                            <div class="content">
+                              <a href="" class="content-link">
+                                <div class="content-heading">
+                                  <span>Custom Build</span>
+                                </div>
+                                <div class="content-para">
+                                  <span>
+                                    Build and customize your own website from scratch with
+                                    your own style and and tools.
+                                  </span>
+                                </div>
+                              </a>
+                            </div>
+                            <div class="hoz-line"></div>
+                            <div class="content">
+                              <a href="" class="content-link">
+                                <div class="content-heading">
+                                  <span>Blog Features and Effects</span>
+                                </div>
+                                <div class="content-para">
+                                  <span>
+                                    Start your own blog, add an online store and accept
+                                    bookings online.
+                                  </span>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </main>
+                      </div>
+                    </main>
+                  </div>
+          
+                  <div class="navbar__brand">
+                    <ul class="navbar__brand--item">
+                      <li class="navbar__brand--list">
+                        <a href="" class="navbar__brand--link d-none">About Us</a>
+                      </li>
+                      <li class="navbar__brand--list">
+                        <a href="" class="navbar__brand--link d-none">Support</a>
+                      </li>
+                      <li class="navbar__brand--list">
+                        <button class="brand--button">
+                          <a href="" class="navbar__brand--link1"> Sign In </a>
+                        </button>
+                      </li>
+                    </ul>
+                  </div>
+            </header>
+        </section>
+
+        <section class="chapter-one">
+            <h3 class="dai">DESIGN AND IMPLEMENTATION</h3>
+            <div class="chapter">
+                <h5 class="daf">CHAPTER ONE</h5>
+                <div class="ibsa">
+                    <div>
+                        <h3>1.1     INTRODUCTION</h3>
+                        <h3>1.2     BACKGROUND OF STUDY</h3>
+                    </div>
+                    <div class="ibs">
+                        <h3>1.3     SCOPE AND LIMITATIONS</h3>
+                        <h3>1.4     AIMS AND OBJECTIVES</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="text">
+                <div class="1.1"><br><br>
+                    <h3>1.1 INTRODUCTION</h3><br><br>
+                    <p> A Content Management System (CMS) is a web application 
+                        designed to allow users to collaboratively create, store, 
+                        edit, review, index, search, publish and archive various 
+                        kinds of digital media and electronic text.                        
+                        A CMS provides a graphical user interface with tools 
+                        to create, edit and publish web content without need 
+                        to write a code from scratch. It has two components: 
+                        a content management application (CMA) and a content 
+                        delivery application (CDA).                       
+                        The CMA is a graphical user interface that enables 
+                        users to design, create, modify and remove content 
+                        from a website without HTML knowledge.
+                        The CDA component provides the back-end services that 
+                        support management and delivery of the content once a user creates it in the CMA.
+                        Any user with administration rights over a website can 
+                        use the Content Management System to create free-form 
+                        content throughout the site. Some of these websites are:
+                        WordPress: WordPress is the world’s most popular CMS by 
+                        far. It powers over 37% of all websites on the Internet. 
+                        It started as a blogging platform but has long-since morphed 
+                        into a full CMS that you can use to build any type of website, from ecommerce stores to membership sites, forums, and more.
+                        Drupal: another popular open source CMS that fits in the same 
+                        space as WordPress.
+                        With its flexible taxonomy system, Drupal excels when it comes 
+                        to managing sites with large amounts of content. It also has a 
+                        built-in user access system that gives you plenty of control 
+                        over what registered users can do inside the CMS.
+                        Like WordPress, you can control how your site looks using 
+                        themes and extend Drupal’s functionality with modules.
+                        Joomla :Joomla comes with large marketplaces for templates 
+                        and extensions, which helps you create a website that matches 
+                        your needs just like WordPress and Drupal .
+                        In terms of the technical knowledge that’s required, Joomla 
+                        offers a nice middle-ground between WordPress and Drupal.
+                        </p>
+                </div>
+                <div class="1.1"><br><br>
+                    <h3>1.2 BACKGROUND OF STUDY</h3><br><br>
+                    <p> The study of  CMS centers on creating
+                        a platform that will offer the best 
+                        services of building basic websites 
+                        such as landIng page, portfolio websites,
+                        blog and other basic websites to the masses 
+                        which will enable its users to create,edit,
+                        remove and publish web content to the best 
+                        of their interest; without  knowledge in coding.
+                        it will also allow the users to download and save 
+                        their edited template. In the design of this web app, 
+                        HTML, CSS, JavaScript, Python and Django.
+                        </p>
+                </div>
+                <div class="1.1"><br><br>
+                    <h3>1.3 SCOPE AND LIMITATIONS</h3><br><br>
+                    <p>This project work will be basically 
+                        designed for FORGE which will provide 
+                        better customer service like contact 
+                        form and live chats Incase of any enquiry.
+                        At the first phase of this project, which 
+                        is data gathering, challenges were faced due 
+                        to the fact that research data was difficult 
+                        to gather at the initial time.                        
+                    </p>
+                </div>
+                <div class="1.1"><br><br>
+                    <h3>1.4 AIMS AND OBJECTIVES</h3><br><br>
+                    <p>In this study, the researchers hope 
+                        to achieve the following objectives:
+                        To develop a user friendly system 
+                        with navigation ease for FORGE.
+                        Allow users to easily create a 
+                        website from pre-existing templates 
+                        or by importing theirs.
+                        Allow easy modification of 
+                        templates with the ability to save work for future use.
+                        Download website templates.
+                        Publish Website with a custom Universal 
+                        Resource Locator (URL) directly from the web application
+                        
+                </div>
+            </div>
+            <div class="chapter-2">
+                <h5 class="daf">CHAPTER TWO</h5>
+                <div class="ibap">
+                        <h3>2.1       INTRODUCTION</h3>
+                        <h3>2.2       SOFTWARE DEVELOPING LIFECYCLE</h3>
+                        <h3>2.3       WATERFALL MODEL</h3>
+                        <h3>2.4       REQUIREMENT ELICITATION</h3>
+                        <h3>2.5       DESCRIPTION OF THE PROPOSED SYSTEM</h3>
+                        <h3>2.6       REQUIREMENT DEFINITION</h3>
+                        <div class="subsection">
+                            <h3>2.6.1        FUNCTIONAL REQUIREMENT OF THE PROPOSED SYSTEM</h3>
+                            <h3>2.6.1.2        SYSTEM REQUIREMENT</h3>
+                            <h3>2.6.2        NON-FUNCTIONAL REQUIREMENT</h3>
+                            <h3 class="product">A    PRODUCT REQUIREMENT</h3>
+                            <h3 class="product">B    ORGANIZATIONAL REQUIREMENT</h3>
+                        </div>
+                </div>
+                <div class="ibsy">
+                        <h3>C     EXTERNAL REQUIREMENT</h3>
+                        <h3>2.7     REQUIREMENT ANALYSIS</h3>
+                        <div class="subsection">
+                            <h3>2.7.1     USE CASE</h3>
+                            <h3>2.7.1.1     USE CASE:REGISTER</h3>
+                            <h3>2.7.1.2     USE CASE:LOGIN</h3>
+                            <h3>2.2.1.3    USE CASE:SELECT TEMPLATE</h3>
+                        </div>
+                    <h3>2.8   REQUIREMENT DESIGN</h3>
+                    <div class="subsection">
+                        <h3>2.8.1     CLASS DIAGRAM</h3>
+                        <h3>2.8.2    ACTIVITY DIAGRAM</h3>
+                        <h3>2.8.2.1     USER DIAGRAM</h3>
+                    </div>
+                    <h3>2.9     DATABASE DESIGN</h3>
+                </div>
+                <div class="stagetwo"><br><br>
+                    <h3>2.1 INTRODUCTION</h3>
+                    <p> This chapter describes the method 
+                        used during analysis which is the 
+                        use case diagram and design which 
+                        shows the class diagram and the activity 
+                        diagram of each participant of the system; 
+                        the model used for the software development 
+                        lifecycle,the elicitation method used,and the 
+                        functional and non-functional requirements of the system.
+                        </p>
+                </div>
+                <div class="stagetwo"><br><br>
+                    <h3>2.2 SOFTWARE DEVELOPMENT LIFECYCLE</h3>
+                    <p> Software development life cycle is 
+                        the systematic process used for building 
+                        software and ensuring the correctness and 
+                        quality of the software built. It is a process 
+                        used for planning, creating, testing and 
+                        implementing an information system.
+                        In this project, a waterfall model 
+                        will be used in the development process.                       
+                    </p>
+                </div>
+                <div class="stagetwo"><br><br>
+                    <h3>2.3 WATERFALL MODEL</h3>
+                    <p> This is a plan driven process 
+                        in which the developers plan 
+                        and schedule all the process 
+                        activities before starting work 
+                        on them. The waterfall model consists 
+                        of five (5) phases as presented in Figure 2.1 below                      
+                    </p>
+                </div>
+                <div class="stagetwo"><br><br>
+                    <h3>2.4 REQUIREMENT ELICITATION</h3>
+                    <p> The process of software development 
+                        of the knowledge processes among which
+                        are requirement elicitation processes. 
+                        The purpose of requirement elicitation 
+                        is to gain knowledge about the user's requirement. 
+                        Requirement elicitation involves technical staff 
+                        working with users to find out about the application 
+                        domain, the services the system should provide and 
+                        the system operational constraints. In this project, 
+                        the Brainstorming and Interviewing method was used 
+                        for the elicitation technique. Brainstorming: This 
+                        is a great technique used to accomplish a variety of 
+                        business analysis activities. It is used in requirement 
+                        elicitation to get as many ideas as possible from a group 
+                        of people in order to identify possible solutions to problems. 
+                        During this process, system analysts of like minds were approached 
+                        to discuss the proposed system. With this method, information was 
+                        gathered on how the system should look like, how the interface 
+                        should look, how the system should interact with its user, and 
+                        how the system should respond to the user’s request. An Interview 
+                        can be a structured or unstructured form, either written or printed. 
+                        It consists of a formalized set of questions designed to collect some 
+                        information on some subject or subjects from respondents. The questions 
+                        may be a combination of open-ended and closed-ended questions. 
+                        This method is frequently the best source of gathering qualitative 
+                        information. It is useful for those who could not communicate effectively 
+                        in writing or those who may not have time to complete a questionnaire.                  
+                    </p>
+                </div>
+                <div class="stagetwo"><br><br>
+                    <h3>2.5 DESCRIPTION OF THE PROPOSED SYSTEM</h3>
+                    <p> Forge is a continent management system that allows 
+                        users to spin up a basic website and also allow as 
+                        much customization as possible.<br>        
+                        The system enables User to
+                        
+                        <li> the search features to find specific templates.</li>
+                        <li>Edit, add, remove template after login to the web page.</li> 
+                        <li>Give feedback for the services rendered.</li> 
+                        <li>Publish a Website with an allocated domain</li>                 
+                        The system enables admin to
+                        
+                        <li>Add and delete Templates</li> 
+                        <li>See and attend to users feedback</li> 
+                                             
+                    </p>
+                </div>
+                <div class="stagetwo"><br><br>
+                    <h3>2.6 REQUIREMENT DEFINITION</h3>
+                    <p> The software requirement specification 
+                        shows the functional and non-functional 
+                        requirements, and it includes a use case 
+                        that describes user interaction that the 
+                        software must provide to the user for easy usage.
+                                             
+                    </p>
+                </div>
+                <div class="stagetwo"><br><br>
+                    <h3>2.6.1  FUNCTIONAL REQUIREMENT OF THE PROPOSED SYSTEM</h3>
+                    <p> These are statements of services 
+                        the system should provide; how the 
+                        system should react to particular inputs, 
+                        and how the system should behave in particular 
+                        situations. In some cases, the functional 
+                        requirements may also explicitly state what 
+                        the system should not do.
+                                             
+                    </p>
+                </div>
+                <div class="stagetwo"><br><br>
+                    <h3>2.6.1.1 USER REQUIREMENT</h3>
+                    <p> User requirement specifications 
+                        describe the need for what is 
+                        required by the users from the system. 
+                        <br>        
+                        The following are the user requirements of the system.
+                        
+                        <li>The user shall be able to register their personal details such as Name, Phone Number and Email.</li>
+                        <li>After being registered, the user shall be able to login to the system.</li> 
+                        <li>The user shall be able to search and view templates.</li> 
+                        <li>User shall be able to customize templates.</li>
+                        <li>User shall be able to publish websites.</li> 
+                        <li>The admin shall be able to add and remove templates.</li> 
+                        <li>Admin shall be able to see and attend to user’s feedback.</li> 
+                                             
+                    </p>
+                </div>
+                <div class="stagetwo"><br><br>
+                    <h3>2.6.1.2 SYSTEM REQUIREMENT</h3>
+                    <p> A system requirement is the functionality 
+                        that is needed by a system in order to satisfy t
+                        he customer’s requirements. Listed below are some of 
+                        the requirements needed by the system.                        
+                        <li>The system shall be able to receive user details.</li>
+                        <li>The system shall be able to compile user details for proper documentation and database.</li> 
+                        <li>The system shall be able to keep or store user records.</li> 
+                        <li>The system shall be able to accept user feedback and report feedback to the administrator.</li>                                             
+                    </p>
+                </div>
+                <div class="stagetwo"><br><br>
+                    <h3>2.6.2 NON-FUNCTIONAL REQUIREMENT</h3>
+                    <p> Non-functional requirements are constraints 
+                        on the functional requirements or quality requirements. 
+                        These requirements are product requirements, 
+                        organizational requirements and external requirements.
+                </div>
+                <div class="stagetwo"><br><br>
+                    <h3> A.   PRODUCT REQUIREMENT</h3>
+                    <p> Product requirement includes all the functions, features and behaviors the product must possess in order to be efficient, safe and easy to use. The product requirement of the system is listed below.
+
+                        <li>The system shall be fast in accomplishing tasks so as to give its maximum performance. Speed is an execution quality which is observed during runtime and response time. Therefore, the system must give its maximum performance.</li> 
+                        <li>Maintainability: The system shall be easy to maintain in order to fix problems or causes, repair or replace faulty components so as to maximize efficiency, reliability and safety usage.</li> 
+                        <li>Security: security is important in any software engineering; so as to prevent access to the system from unauthorized users or intruders.FORGE  shall be able to protect user details such as password</li> 
+                        <li>Availability: the system shall be available to the administrator and the customers all the time.</li> 
+                        
+                </div>
+                <div class="stagetwo"><br><br>
+                    <h3> B.   ORGANIZATIONAL REQUIREMENT</h3>
+                    <p> Organizational requirement is derived from the policies and procedures of an organization. some of these policies are:
+                        <li>Accessibility: FORGE users shall be able to access their profile using the login button and if the user is new to the system, the user will have to register in order to have a profile and with that, user can have access to the templates.</li>
+                        <li>Backup/Recovery: The system shall be able to backup and recover stored data/information in case any failure occurs in the system such as virus attack or system crashes so as to prevent data loss.</li>                        
+                </div>
+                <div class="stagetwo"><br><br>
+                    <h3> C.  EXTERNAL REQUIREMENT</h3>
+                    <p>External requirement is that which affects the software or its development process externally.
+                        <li>Security: The system shall be protected so as to prevent access from unauthorized users or intruders.</li>
+                        
+                </div>
+                <div class="stagetwo"><br><br>
+                    <h3>2.7  REQUIREMENT ANALYSIS</h3>
+                    <p> The use case diagram is a graphical 
+                        representation that is used to define 
+                        the core elements and processes that 
+                        make up the system. The key elements are 
+                        termed as “actors” and the processes are 
+                        called “use cases”.                                             
+                    </p>
+                </div>
+                <div class="stagetwo"><br><br>
+                    <h3>2.7.1  USE CASE</h3>
+                    <p> A use case is a description of how a user interacts 
+                        with a system or product. Figure 2.2 below shows the 
+                        operation of the user and administration on the FORGE web app.                 
+                        Following below are the breakdown of the individual use cases; 
+                        each showing the actors, input and outputs respectively.<br><br><br>
+                        
+                        <h3>2.7.1.1   Use Case: Register</h3><br><br>
+                        <p>1.1 Introduction
+                        
+                        This use case documents the procedure for logging in to the FORGE web app<br>
+                        
+                        1.2 Actors: Admin, User<br>
+                        
+                        1.3 Pre-condition: none.<br>
+                        
+                        1.4 Post-condition: if the use case is successful, 
+                        the user will be asked to log in to the system; 
+                        otherwise, the system error is displayed.<br>
+                        
+                        1.5 Flow of events<br>
+                        
+                        The system requests the user to enter his/her name, phone number,email address and password.
+                        User enters his/ her requested details
+                        User submits the input details
+                        The system displays a success message if the registration is successful. Otherwise, an error message is being displayed.<br>
+                        The use case ends</p>                      
+                                             
+                    </p>
+                </div>
+                <div class="stagetwo"><br><br>
+                    <h3>2.7.1.2  USE CASE:LOGIN</h3><br><br>
+                    <p> 1.1 Introduction
+
+                        This use case documents the procedure for the user 
+                        to view templates, customize template and publish their desired website.<br>
+                        
+                        1.2 Actors: Admin, User<br>
+                        
+                        1.3 Pre-Condition: Registration<br>
+                        
+                        1.4 Post-condition: if the use case is 
+                        successful, the admin or the User is logged 
+                        in to the system; otherwise, the User or admin is unable to log in.<br>                       
+                        
+                        1.5 Flow of event:<br>
+                        
+                        The system requests the user to enter his or her email address and password.
+                        The user enters his or her email address and password.
+                        The system validates the user’s details.
+                        If the email address and password is correct, the user is logged in to the system; otherwise an error message is displayed.<br>
+                        Use case ends.
+                                              
+                                             
+                    </p>
+                </div>
+                <div class="stagetwo"><br><br>
+                    <h3>2.7.1.3  USE CASE:SELECT TEMPLATE</h3><br><br>
+                    <p> 1.1 Introduction
+
+                        This use case displays templates to the user<br>
+                        
+                        1.2 Actors: User<br>
+                        
+                        1.3 Pre-condition: Be a registered user.<br>
+                        
+                        1.4 Post-condition: if the use case is successful, the user can select a template.<br>
+                        
+                        1.5 Flow of event:<br>
+                        
+                        The system requires the user to select a template
+                        The user selects his or her desired template and customize.
+                        The system allocates the template to the user.
+                        When user add desired features to the template.
+                        If user is satisfied with the customization, he or she can proceeds to publishing<br>
+                        Use case ends.
+                           
+                    </p>
+                </div>
+                <div class="stagetwo"><br><br>
+                    <h3>2.8 REQUIREMENT DESIGN</h3>
+                    <p> The functional requirements of the system 
+                        are being converted into design. Therefore, 
+                        this section will explain the structural design 
+                        (class diagram) and behavioral design (activity diagram) of the system respectively.                                             
+                    </p>
+                </div>
+                <div class="stagetwo"><br><br>
+                    <h3>2.8.1  CLASS DIAGRAM</h3>
+                    <p> Class diagrams are used when developing an 
+                        object oriented system model to show the classes 
+                        in a system and the associations between these classes. 
+                        Loosely, an object class can be thought of as a general 
+                        definition of one kind of system object. An association is a 
+                        link that indicates that there is a relationship between these classes.                                             
+                    </p>
+                </div>
+                <div class="stagetwo"><br><br>
+                    <h3>2.8.2  ACTIVITY DIAGRAM</h3>
+                    <p> An activity diagram is a behavioral diagram 
+                        that depicts the behavior of a system. 
+                        It portrays the control flow from the start 
+                        point to a finish point showing the various 
+                        paths that exist while the activity is being executed.                                             
+                    </p>
+                </div>
+                <div class="stagetwo"><br><br>
+                    <h3>2.8.2.1  USER ACTIVITY</h3>
+                    <p> User activity depicts the behavior of the user of the system as shown in Figure 2.4 below.                                             
+                    </p>
+                </div>
+                <div class="stagetwo"><br><br>
+                    <h3>2.9 DATABASE DESIGN</h3>
+                    <p> The database for this system has been designed 
+                        with MYSQL. This is due to its reliability, 
+                        flexibility, ease of use, popularity and cost efficiency. 
+                        The database includes the following tables: Table 1 gives 
+                        the users database design, Table 2 gives the original template 
+                        database design, while Table 3 presents user template database design.                                             
+                    </p>
+                </div>
+                <div class="chapter-3">
+                    <h5 class="daf">CHAPTER THREE</h5>
+                    <div class="ibap">
+                            <h3>3.1       INTRODUCTION</h3>
+                            <h3>3.2       SOFTWARE DEVELOPMENT</h3>
+                            <h3>3.3      SYSTEM REQUIREMENTS</h3>                           
+                            <div class="subsection">
+                                <h3>3.3.1        HARDWARE REQUIREMENT</h3>
+                                <h3>3.3.2        SOFTWARE REQUIREMENT</h3>
+                            </div>
+                    </div>
+                    <div class="ibsi">
+                            <h3>3.4     SYSTEM IMPLEMENTATION</h3>
+                            <div class="subsection">
+                                <h3>3.4.1     DESCRIPTION OF SYSTEM IMPLEMENTATION</h3>
+                            </div> 
+                            <h3>3.5    HOME ACTIVITY</h3>
+                            <div class="subsection">                                
+                            <h3>3.5.1    REGISTRATION ACTIVITY</h3>  
+                            <h3>3.5.2    LOGIN ACTIVITY</h3>           
+                            <h3>3.5.3    ADMIN ACTIVITY</h3>   
+                            </div>   
+                            <h3>3.6 SYSTEM TESTING AND DEBUGGING  </h3>
+                            <div class="subsection">
+                                <h3>3.6.1      UNIT TESTING </h3>
+                            </div>                                    
+                    </div>
+                </div>
+                <div class="stagetwo"><br><br>
+                    <h3>3.1  INTRODUCTION</h3>
+                    <p> Before implementing the actual design of the product, 
+                        a few user interface designs were constructed to visualize 
+                        the interaction with the system as they browse for templates, create a website and publish a site.
+                        The main functions of the system include Building website, 
+                        Editing Templates, Website Management and implementation of 
+                        user login and registration. Also, the System Supports MYSQL 
+                        which interacts with databases and performs data Manipulation.                                                                    
+                    </p>
+                </div>
+                <div class="stagetwo"><br><br>
+                    <h3>3.2  SOFTWARE DEVELOPMENT</h3>
+                    <p> The System platform used, the IDE (Integrated Development Environment) 
+                        and the programming language used will be discussed here.
+                        The system platform used is Windows 10. Also the Integrated 
+                        Development Environment used is Visual Studio code the latest 
+                        version and the Programming language used is Python. 
+                        Python is a high level, general purpose programming language. 
+                        its design philosophy emphasizes code readability with the use of significant indentation.                        
+                        The tools chosen for developing this system are: 
+                        HTML5, Python3, JavaScript, Django and SQLite3. They are chosen based on their popularity and ease of use.
+                        
+                        <li>HTML 5: Hypertext Markup Language (HTML), the standard programming for describing the contents and appearance of web pages.it is the most common language used in creating web pages. A markup language is a set of markup tags and the tags describe document content.</li>
+                        <li>Python 3:  is a high level, general purpose programming language. its design philosophy emphasizes code readability with the use of significant indentation. It is often used to build websites and software, automate tasks, and conduct data analysis.</li>
+                        <li>JavaScript: JavaScript is a client-side scripting or programming language that allows you to implement complex features on web pages.</li>
+                        <li>Django: Django is a high-level python web framework that encourages rapid development of secure, maintainable and clean websites.</li>
+                        <li>SQLITE3: SQLite is a C-language library that implements a small, 
+                            fast, self-contained, high-reliability, full-featured, SQL database engine. 
+                            SQLite is the most used database engine in the world. SQLite is built into all 
+                            mobile phones and most computers and comes bundled inside countless other applications 
+                            that people use every day.</li>                                                                                          
+                    </p>
+                </div>
+                <div class="stagetwo"><br><br>
+                    <h3>3.3  SYSTEM REQUIREMENTS</h3>
+                    <p> System requirements are the configuration or 
+                        required specification that a system must 
+                        have in order for a hardware or software application 
+                        to run smoothly and efficiently. Failure to meet these 
+                        requirements can result in installation problems or 
+                        performance problems. Installation problems may prevent a 
+                        device or application from being installed, whereas performance 
+                        problems may cause a product to malfunction or perform below 
+                        expectation or may even hang or crash.                                                                  
+                    </p>
+                </div>
+                <div class="stagetwo"><br><br>
+                    <h3>3.3.1  HARDWARE REQUIREMENTS</h3>
+                    <p> <li>PC with 2 GB hard-disk and 250MB RAM</li>
+                        <li>Disk Storage: 2 GB of free disk space</li>                                                                    
+                    </p>
+                </div>
+                <div class="stagetwo"><br><br>
+                    <h3>3.3.1  SOFTWARE REQUIREMENTS</h3>
+                    <p> <li>Windows 2000/ XP/ or Higher with MS-office.</li>
+                        <li>Ms-Internet Explorer, Mozilla Firefox, Google Chrome, Safari.</li>
+                        <li>CPU: Intel or AMD processor with 64-bit support.</li>
+                        <li>Internet connection required for software activation.</li>                                                                       
+                    </p>
+                </div>
+                <div class="stagetwo"><br><br>
+                    <h3>3.4  SYSTEM IMPLEMENTATION</h3>
+                    <p> System implementation is the process of 
+                        defining how the system should be built, 
+                        ensuring that the system is operational 
+                        and used and also ensuring that the system 
+                        meets the quality standard.                                                                  
+                    </p>
+                </div>
+                <div class="stagetwo"><br><br>
+                    <h3>3.4.1  DESCRIPTION OF SYSTEM IMPLEMENTATION</h3>
+                    <p>  Since the objective of this project 
+                        is to develop and implement a content 
+                        management website where users can create, 
+                        personalize and edit the usability and 
+                        functionality of any website of their choice 
+                        through the template provided by the system. 
+                        The system was implemented using HTML5, CSS3, 
+                        JavaScript, SQLite3, Python 3 and Django. 
+                        The system is designed and programmed to validate 
+                        the user's input. when the user typed in the 
+                        Universal Resource Locator (URL) on the browser, 
+                        the web server is to accept the incoming http request 
+                        and return the requested resource in the http response.                                                                 
+                    </p>
+                </div>
+                <div class="stagetwo"><br><br>
+                    <h3>3.5    HOME ACTIVITY</h3>
+                    <p> User homepage as Presented in Figure 3.1 
+                        is the first page displayed to the user 
+                        when he/she visits the web app.on this page, 
+                        user can explore and sign in the app.                                                                  
+                    </p>
+                </div>
+                <div class="stagetwo"><br><br>
+                    <h3>3.5.1    REGISTRATION ACTIVITY</h3>
+                    <p> The Registration page is a form page 
+                        that will be filled by unregistered users 
+                        who want to operate(select template, Edit 
+                        Template and Publish website)on the web app. 
+                        The Registration page is displayed as in Figure 3.2                                                                  
+                    </p>
+                </div>
+                <div class="stagetwo"><br><br>
+                    <h3>3.5.2    LOGIN ACTIVITY</h3>
+                    <p> The Login Form is used only by Registered Users and it is displayed as presented in Figure 3.3                                                                 
+                    </p>
+                </div>
+                <div class="stagetwo"><br><br>
+                    <h3>3.5.3    ADMIN ACTIVITY</h3>
+                    <p> The admin page displays a form page where 
+                        the administration can Sign In as displayed 
+                        in Figure 3.4. Admin can manage users as shown 
+                        in Figure 3.5, add or remove template as presented 
+                        in Figure 3.6 and as well change password as shown in Figure 3.7                                                                 
+                    </p>
+                </div>
+                <div class="stagetwo"><br><br>
+                    <h3>3.6    SYSTEM TESTING AND DEBUGGING</h3>
+                    <p> System Testing is a type of software testing that is 
+                        performed on a complete integrated system; to evaluate 
+                        the compliance of the system, with the corresponding requirements. 
+                        In system testing,integration testing passed components is taken as input. 
+                        The goal of Integration testing is to detect any irregularity between 
+                        the units that are integrated together.
+                        The objective of the testing is to ensure:                        
+                        <li>Software Reliability</li>
+                        <li>Software Quality</li>
+                        <li>System Assurance</li>
+                        <li>Optimum Performance and</li>
+                        <li>Capacity Utilization.</li>
+                        <li>Debugging is the process of fixing a 
+                            bug in the software. It can be defined 
+                            as the Identifying, analyzing and Removing errors. 
+                            The activity begins after the software fails to execute 
+                            properly and concludes by solving the problem, 
+                            and successfully testing the software.</li>
+                                                                                       
+                    </p>
+                </div>
+                <div class="stagetwo"><br><br>
+                    <h3>3.6.1    UNIT TESTING</h3>
+                    <p> Unit testing is a type of testing 
+                        in which an individual unit is checked 
+                        to ensure the correctness of an isolated code. 
+                        A unit is the smallest testable part of an application. 
+                        It mainly has one or few inputs and produces a single output.                                                               
+                    </p>
+                </div>
+            </div>
+        </section>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <section class="footer--section">
+            <div class="footer--section__flex">
+
+                <div class="footer--section__products">
+                    <span class="footer--section__header">
+                        <a href="" class="footer--section--link">Products</a>
+                    </span>
+                    <ul class="footer--section__items">
+                        <li class="footer--section__list">
+                            <a href="" class="footer--section__link">
+                                Templates
+                            </a>
+                        </li>
+                        <li class="footer--section__list">
+                            <a href="" class="footer--section__link">
+                                Websites
+                            </a>
+                        </li>
+                        <li class="footer--section__list">
+                            <a href="" class="footer--section__link">
+                                Features
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer--section__products">
+                    <span class="footer--section__header">
+                        <a href="" class="footer--section--link">Explore</a>
+                    </span>
+                    <ul class="footer--section__items">
+                        <li class="footer--section__list">
+                            <a href="" class="footer--section__link">
+                                Website Builder
+                            </a>
+                        </li>
+                        <li class="footer--section__list">
+                            <a href="" class="footer--section__link">
+                                Activity
+                            </a>
+                        </li>
+                        <li class="footer--section__list">
+                            <a href="" class="footer--section__link">
+                                Recent Posts
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer--section__products">
+                    <span class="footer--section__header">
+                        <a href="" class="footer--section--link">About Forge</a>
+                    </span>
+                    <ul class="footer--section__items">
+                        <li class="footer--section__list">
+                            <a href="" class="footer--section__link">
+                                FAQs
+                            </a>
+                        </li>
+                        <li class="footer--section__list">
+                            <a href="" class="footer--section__link">
+                                Privacy Policy
+                            </a>
+                        </li>
+                        <li class="footer--section__list">
+                            <a href="" class="footer--section__link">
+                                Terms of Use
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer--section__brand">
+                    <div class="footer--logo">
+                        <a href="" class="footer--section__brand--logo">
+                            <img src="./Group 270.png" alt="">
+                        </a>
+                    </div>
+                    <div class="footer--section__para">
+                        <span>
+                            Forge gives users access to create, personalized, 
+                            edit the functionally and usability of any website 
+                            of their choice through our given templates.
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer--section__flex2">
+                <div class="footer--section__subscribe">
+                    <div class="footer--section__subscribe--letter">
+                        <span>
+                            Subscribe to our NewsLetter
+                        </span>
+                    </div>
+                    <div class="footer--section__subscribe--input">
+                        <input type="email" class="footer--section__input"
+                        name="email" placeholder="Enter your email address">
+                        
+                        <input type="submit" class="footer--section__button"
+                        value="Subscribe"/>
+                    </div>
+                </div>
+                <div class="footer--section__connect">
+                    <div class="footer--section__connect--heading">
+                        <span>
+                            Connect With Us
+                        </span>
+                    </div>
+                    <div class="footer--section__icons">
+                        <div class="footer--section__icons">
+                            <a href="">
+                                <img src="./twitter icon.png" alt="" class="footer-icons">
+                            </a>
+                        </div>
+                        <div class="footer--section__icons">
+                            <a href="">
+                                <img src="./instagram icon.png" alt="" class="footer-icons">
+                            </a>
+                        </div>
+                        <div class="footer--section__icons">
+                            <a href="">
+                                <img src="./Linkedin icon.png" alt="" class="footer-icons">
+                            </a>
+                        </div>
+                        <div class="footer--section__icons">
+                            <a href="">
+                                <img src="./facebook icon.png" alt="" class="footer-icons">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hr"></div>
+        </section>
+
+        
+        <section class="rights">
+            <div class="right-reserved">
+                <span>
+                    All rights reserved @Forge2022
+                </span>
+            </div>
+        </section>
+    </main>
+    <script src="./landingPage.js"></script>
 </body>
 </html>
