@@ -8,8 +8,13 @@
     background: #FFFFFF;
 }
 
+.img {
+    width: 300px;
+    height: 250px;
+}
+
 .error-content {
-    margin: 2% auto;
+    margin: 4% auto;
     text-align: center;
 }
 
@@ -40,7 +45,6 @@
 }
 
 .error-button {
-    padding: 20px 25px;
     background: #64A6BD;
     border-radius: 4px;
     border: none;
@@ -59,4 +63,35 @@
     font-size: 22px;
     line-height: 17px;
     text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+    * {
+        overflow: hidden;
+    }
+    .img {
+        width: 220px;
+        height: 250px;
+    }
+    .error-text--heading {
+        font-size: 22px;
+        margin-top: 1%;
+    }
+    .error-text--para {
+        font-size: 14px;
+    }
+    .error-button  {
+        width: 300px;
+        height: 52px;
+    }
+    .error-link {
+        font-size: 18px;
+        font-weight: 600;
+    }
+}
+
+@media (max-width: 400px) {
+    .error-content {
+        margin: 25% auto;
+    }
 }
