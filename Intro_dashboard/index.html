@@ -12,8 +12,9 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="list-items">
-      <a href="#" class="btn-close" 
+    <div class="list-items" id="side_menu">
+      <div class="sidelogo"><img src="Group 271.png" alt=""></div>
+      <a href="#" class="btn-close" id="btn_close" 
         >&times;</a
       >
       <ol>
@@ -26,49 +27,23 @@
       <li><a href="#"><i class="fas fa-cog"></i><span>Settings</span></a></li>
     
   </ol>
+
 </div>
     <header>
       <div class="navbar">
         <div class="open slide"></div>
-     
-
-      
-  </div>
+     </div>
 
     </nav>
       <div class="main_header">
         <div class="top">
-          <a class="ham" href="#">
-            <i class="fa fa-bars" id="sidebar_btn"></i>
+          <a class="ham" id="sidebar_btn" href="#">
+            <i class="fa fa-bars" ></i>
           </a>
-          <nav>
-            <!-- <div class="navbar">
-              <div class="open slide" onclick="openSlideMenu()"></div>
-           
-
-            <div class="list-items">
-              <a href="#" class="btn-close" onclick="closeSideMenu()"
-                >&times;</a
-              >
-              <ol>
-
-              <li><a href="#"><i class="fa fa-desktop"></i><span>Dasboard</span></a></li>
-              <li><a href="#"
-                ><i class="fas fa-sliders-h"></i><span>Activities</span></a></li>
-              <li><a href="#"><i class="fa fa-folder"></i><span>Projects</span></a></li>
-              <li><a href="#"><i class="fa fa-question"></i><span>FAQs</span></a></li>
-              <li><a href="#"><i class="fas fa-cog"></i><span>Settings</span></a></li>
-            </div>
-          </ol>
-        </div>
-          </nav> -->
           <div class="logo">
             <img src="Group 271.png" alt="logo" />
           </div>
-
         </div>
-
-        
         <div class="searchbar">
           <div>
             <form>
@@ -102,9 +77,11 @@
         </div>
       </div>
     </header>
+    <hr size="1">
 
     <div class="content">
       <div class="one">
+        <p>Create New Project</p>
         <img src="blank.png" alt="frame 1" class="von" />
       </div>
       <div class="two">
@@ -163,16 +140,22 @@
         <p class="bottom">free</p>
       </div>
     </div>
-    <!-- <script>
-      function openSlideMenu() {
-        document.getElementById(sidebar).style.width = "250px";
-        document.getElementById(sidebar).style.marginLeft = "250px";
-      }
-      function closeSlideMenu() {
-        document.getElementById(sidebar).style.width = "0px";
-        document.getElementById(sidebar).style.marginLeft = "0px";
-      }
-    </script> -->
-    <script src="index.js"></script>
+    
+    <script >
+      const sidebar = document.getElementById("side_menu");
+const openbtn = document.getElementById("sidebar_btn");
+const closebtn = document.getElementById("btn_close");
+
+openbtn.addEventListener('click', () => { 
+    sidebar.style.display = "block";
+ });
+
+ closebtn.addEventListener('click', () => { 
+    sidebar.style.display ='none';
+     });
+
+
+
+    </script>
   </body>
 </html>
