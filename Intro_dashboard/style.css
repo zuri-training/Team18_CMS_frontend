@@ -5,7 +5,7 @@
 }
 
 .main_header{
-  /* position: fixed; */
+  
   display: flex;
   justify-content: space-between;
   background-color: #fff;
@@ -16,6 +16,15 @@ body{
   background-color: #fff;
   
 }
+.hr{
+    
+  border-style: none;
+  border-color: blue;
+  border-top-style: dotted;
+  height: 2px;
+  border-width: 3%;
+  width: 5%;
+}
 form {
   display: flex;
   align-items: center;
@@ -23,24 +32,21 @@ form {
 }
 .searchbar {
   display: flex;
-  /* margin: 0.5rem; */
   border: none;
   outline: none;
-  /* border-color: grey; */
   padding-left: 10px;
 }
 .searchbar input {
   border : none;
   outline: none;
-  /* color: rgba(34, 34, 34, 0.5); */
   margin-left: 5px;
   font-size: 1rem;
-  /* background-color: #222222; */
+  
 }
 input{
   border: none;
   padding: 0.5rem;
-  /* color: rgba(34, 34, 34, 0.5) */
+  
 }
 .place{
   margin-left: 5px;
@@ -61,7 +67,6 @@ input{
 }
 .top{
   display: flex;
-  /* justify-content: center; */
   align-items: center;
 }
 .logo{
